@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oneday</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ajout de la police poopins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat:wght@300&family=Poppins:ital,wght@0,100;0,200;0,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+      <!-- nav bar  -->
+      <nav class="navbar">
+        <a href="#" class="logo">1day</a>
+          <div class="nav-links">
+            <ul>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">PRODUCT</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#">...</a></li>
+              </ul>
+          </div>          
+          <img src="img/menu-btn.png" alt="menu-hamburger" class="menu-hamburger"> <!-- image du menu hamburger qui apparait quand on est en version mobile -->
+      </nav>
+  </header>
+
+    <div class="txt">
+    <p id="txt1">This is Oneday.</p>
+    <br>
+    <p id="txt2">Subtext is used to give detailled information <br> about you, your service or whatever else.</p>
+    <br>
+      <button class="button" id="Openbtn"><span id="txt-btn">TELL ME MORE.</span></button>
+
+      <dialog id="dialog">
+        <button id="Closebtn">Fermer le popup</button>
+
+        <p><span> Merci d'avoir cliqué :) </span></p>
+        
+
+      </dialog>
+      </div>
+      <!-- affichage d'un message lorsque le bouton est cliqué -->
+  </body>
+
+    <script src="script/menu-hamburger.js"></script>
+    <script src="script/popup.js"></script>
+
+</html>
